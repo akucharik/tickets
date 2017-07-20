@@ -1,0 +1,26 @@
+@import 'tickets';
+@import 'thriller';
+
+// User menu
+.tickets-page {
+    @extend .a-padding-base;
+    @extend .tickets-page;
+    text-align: center;
+}
+
+#tickets-menu-toggle-icon {
+    @extend #tickets-menu-toggle-icon;
+    background-color: transparent;
+    border: 0 none;
+    left: 16px;
+    position: absolute;
+    top: 11px;
+}
+
+#your-tickets-link {
+    @extend .tickets-sprite;
+    @extend #your-tickets-link;
+    position: absolute;
+    right: 16px;
+    top: 11px;
+}

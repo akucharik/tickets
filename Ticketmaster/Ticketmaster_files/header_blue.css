@@ -1,0 +1,345 @@
+@font-face {
+      font-family: 'TM Sans';
+      src: url('../font/TMSans-Regular.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+      font-family: 'TM Sans';
+      src: url('../font/TMSans-SemiBold.woff') format('woff');
+      font-weight: bold;
+}
+#site-header *{
+  font-family: TM Sans, Arial;
+}
+#site-nav .cat-on {
+    color: #FFF;
+   /* font-weight: bold;*/
+    border-bottom: solid 3px;
+    height: 37px;
+}
+#site-header .frame {
+  font-family:TM Sans;
+}
+#navigationMenue, #site-header .frame {
+	height: 60px;
+}
+#site-search {
+	top: 12px;
+	right: 271px;
+}
+#site-search .search-button {
+	/*display: none !important;*/
+	right: initial;
+    left: 16px;
+    top: 5px;
+}
+#site-nav {
+	top: 60px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	text-align: center;
+	height: 40px;
+    display: block;
+}
+#site-options {
+    top: 60px;
+    left: auto;
+    height: auto;
+    padding: 0;
+    width: 150px;
+}
+#help-item {
+  position: absolute;
+  right: 0;
+  top: -50px;
+}
+#site-options > li#location-list {
+    position: absolute;
+    left: -830px;
+    top: 0;
+    margin-left: 0!important;
+}
+#location-button:before {
+  top: 10px;
+  display: none /*remove this to show the location icon */
+}
+.site-options-promo { bottom: -50px; border: none;}
+
+/* grey */
+.leaderboard {
+	background-color: grey !important;
+}
+#site-header {
+	background-color: #0087c1 !important;
+	margin: 0;
+	padding: 0 0 40px;
+}
+.site-header-container {
+	background-color: #009CDE;
+}
+#site-nav > li > a {
+font-size: 14px;
+    color: #fff;
+    margin: 0px 15px;
+    display: inline-block;
+    height: 40px;
+}
+#site-nav > li > a:hover {
+text-decoration:none
+}
+.search-textfield {
+	width: 480px;
+	height: 37px;
+	border-radius: 20px;
+	background-color: #0074a6;
+	margin: 0;
+	border: none;
+	color: #fff;
+    padding-left:50px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.search-textfield.placeholder {
+	color: #fff;
+	text-align: center;
+	padding-left: 61px;
+	/*background: url('img/sys/alpha/discovery/header/search-20x20.svg') no-repeat 111px center #0074a6;*/
+	background-size: 18px 18px;
+}
+#site-header .site-logo {
+  background: url('img/sys/alpha/discovery/header/ticketmaster-logo.svg') no-repeat center center transparent;
+  background-size: 115px;
+  display: inline-block;
+  height: 20px;
+  width: 115px;
+}
+#site-header .site-logo img {
+  display: none
+}
+#site-header .site-logo {
+	top: 18px;
+  z-index: 1;
+}
+.nav-theme, .nav-theme:hover {
+	color: #fff
+}
+#site-nav .dd-listener:hover .dd-list {
+	left: -10px
+}
+#account-options {
+	right: -3px;
+  top:49px;
+  position:absolute
+}
+.dd:after {
+	border-color: transparent;
+ border:none
+}
+.sub-col {
+	padding: 15px 10px;
+}
+#site-options > li#cart-list {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.site-nav-container {
+  position:relative
+}
+#site-options > li#account-list {
+  position: absolute;
+  right: 40px;
+  top: -60px;
+  background: url('img/sys/alpha/discovery/header/ic-account_22x22.svg') no-repeat left center transparent;
+  background-size: 20px 20px;
+  margin: 0;
+  padding: 0 0 0 30px;
+}
+#site-options > li#account-list.account-ca {
+  right: 95px;
+}
+.language-ca {
+    top: -50px;
+    position: absolute;
+    right: 35px;
+}
+.nav-theme {
+  font-size:14px;
+  line-height:20px
+}
+.site-header-container h1 {
+  z-index: 1;
+  position: relative;
+}
+#leaderBoard div div {
+  height :auto!important
+}
+#account-list button {
+  max-width: 230px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 10px;
+}
+.site-nav-container .sub-col, .site-nav-container .promo-col{
+  display: none !important;
+}
+#site-nav > li {
+    line-height: 40px;
+}
+#site-options > li {
+  height:40px;
+  line-height:40px
+}
+.nav-theme {
+    line-height: 40px;
+}
+#site-options > li#account-list {
+  height: 60px;
+  line-height:60px;
+  text-align: left;
+}
+li.lang-item { /* this clase is to apply is you need to show the cart item */
+  right: 56px;
+  position: absolute;
+}
+#account-list-options.select-list-theme li a {
+  line-height: normal
+}
+#site-header .button {
+  background-color: #768692;
+  border-radius: 15px;
+  vertical-align: top;
+}
+#account-options .padded-action {
+  padding: 10px 20px;
+}
+#account-list-options.select-list-theme li {
+  padding: 15px 20px;
+}
+#site-header .button-secondary {
+    background-color: #768692;
+    border-radius: 15px;
+}
+.dd:after {
+  content:initial
+}
+.nav-theme:hover, .nav-theme:active, .nav-theme:focus, .nav-theme.on {
+  color:#fff
+
+}
+.nav-theme {
+ text-decoration: none !important;
+}
+.nav-theme:hover{
+ opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+.search-button {
+    background: url(img/sys/alpha/discovery/header/search-20x20.svg) no-repeat center center transparent !important;
+    }
+#site-nav .top-caret {
+ display:none
+}
+#cart-button.carted { margin:7px 0 0}
+#cart-button, .site-options-promo .icon-info {  display: none; }
+.site-options-promo .promo-image-logo {
+    padding-top: 12px;
+}
+.site-options-promo .promo-image-logo:hover { opacity: 0.8; }
+.promo-us-ca .tooltip {padding: 0 10px;}
+
+.site-options-promo .tooltip {
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 3px;
+    box-shadow: rgba(0,0,0,0.25) 0px 2px 6px;
+    color: #414141;
+    font-size: 12px;
+    position: absolute;
+    right: 30px;
+    top: -35px;
+    transition: visibility 0s;
+    visibility: hidden;
+    white-space: nowrap;
+    z-index: 99;
+}
+.site-options-promo a:hover .tooltip {
+    visibility: visible;
+    transition-delay: 0.4s;
+}
+#site-nav .tag {
+    background: none;
+    border-radius: 0;
+}
+#site-nav .tag:after {
+    background: none;
+}
+#site-nav .tag:hover,
+#site-nav .tag:focus {
+    background: none;
+}
+#site-nav .tag:hover{ opacity: 0.8; }
+
+#location-options form {
+    padding: 15px 20px 0;
+    display: block;
+    font-size: 0;
+}
+.location-label {
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 0;
+    display: block;
+    color:#768692
+}
+.location-textfield {
+    background: initial;
+    border-radius: 0;
+}
+#location-options {
+    min-width: 294px!important;
+}
+#site-options #location-options {
+
+    top: 41px;}
+#location-options-list > li + li:before {
+    content: "";
+    margin-left: 0;
+    color: #ccc;
+    margin-right: 0;
+}
+#location-options-list > li + li {
+    margin-left: 0;
+}
+#location-options-list li {
+    display: block;
+    padding: 0;
+}
+#location-options-list a {
+    color:#768692
+}
+#location-options-list {
+    padding: 0 20px;
+    border-top: 0px solid #e6e6e6;
+}
+.site-nav-container #site-nav .dd-listener:hover {
+ opacity:0.8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+text-decoration: none;
+}
+.site-nav-container #site-nav .dd-listener *
+{ text-decoration: none !important; }
+
+.loc-name-ellipsis {
+    width: 165px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: left;
+}
+
+/*mask*/
+#site-header {visibility: visible}
+.search-textfield {visibility: visible}
+.search-button  {visibility: visible}

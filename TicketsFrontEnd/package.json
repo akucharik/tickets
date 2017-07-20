@@ -1,0 +1,36 @@
+{
+  "author": {
+    "name": "Adam Kucharik",
+    "email": "akucharik@gmail.com"
+  },
+  "description": "An Amazon Tickets exercise",
+  "homepage": "",
+  "keywords": [],
+  "license": "MIT",
+  "main": "",
+  "name": "amazon-tickets-exercise",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "config": {
+    "styles": {
+      "pathcustom": "src/styles",
+      "outfile": "styles/site.css",
+      "outfilemin": "styles/site.min.css",
+      "sourcefile": "src/styles/site.scss"
+    }
+  },
+  "scripts": {
+    "build": "node-sass $npm_package_config_styles_sourcefile $npm_package_config_styles_outfilemin --include-path $npm_package_config_styles_pathcustom --output-style compressed",
+    "prebuild": "npm run clean",
+    "build:dev": "node-sass $npm_package_config_styles_sourcefile $npm_package_config_styles_outfile --include-path $npm_package_config_styles_pathcustom --output-style expanded --source-map true --source-map-embed true",
+    "prebuild:dev": "npm run clean",
+    "clean": "del 'styles/*'"
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+    "del-cli": "^1.0.0",
+    "node-sass": "^4.5.3"
+  }
+}
